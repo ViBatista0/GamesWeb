@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vinícius Batista">
+    <meta name="description" content="A gaming blog site">
+    <meta name="keywords" content="games, videogame, console">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>GameWeb</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fas fa-gamepad"></i>GamesWeb</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="index.html">Home</a>
+            <a href="about.html">Sobre</a>
+            <a href="games.html">Games</a>
+            <a href="contact.html">Contato</a>
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+    </header>
+
+    <div class="account-form">
+
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <span class="btn active login-btn">Login</span>
+            <span class="btn register-btn">Cadastrar</span>
+        </div>
+
+        <form class="login-form active" action="">
+            <h3>Fazer login</h3>
+            <input type="email" placeholder="Digite seu email" class="box">
+            <input type="password" placeholder="Digite sua senha" class="box">
+            <div class="flex">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">relembrar senha</label>
+                <a href="#">esqueceu a senha?</a>
+            </div>
+            <input type="submit" value="Fazer login" class="btn">
+        </form>
+
+        <form class="register-form" action="">
+            <h3>Se cadastrar</h3>
+            <input type="email" placeholder="Digite seu email" class="box">
+            <input type="password" placeholder="Digite sua senha" class="box">
+            <input type="password" placeholder="Confirme sua senha" class="box">
+            <input type="submit" value="Se cadastrar" class="btn">
+        </form>
+
+    </div>
+    <section class="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <section class="swiper-slide slide" style="background: url(img/homeslide\ \(1\).jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Blogs com várias dicas!</h3>
+                        <p>Ao acessar nossos blogs, vocês poderão encontrar várias dicas e tutoriais de vários games!</p>
+                        <a href="#" class="btn">Começar</a>
+                    </div>
+                </section>
+
+                <section class="swiper-slide slide" style="background: url(img/homeslide\ \(2\).jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Tutoriais e bate papo com os melhores!</h3>
+                        <p>Ao buscar por tutorias e dicas, você poderá assistir lives que os melhores jogadores fazem!</p>
+                        <a href="#" class="btn">Começar</a>
+                    </div>
+                </section>
+
+                <section class="swiper-slide slide" style="background: url(img/homeslide\ \(3\).jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Participe de nossos clans!</h3>
+                        <p>Conecte sua conta em um clan, e disputa com outrs pessoas em seu game preferido!</p>
+                        <a href="#" class="btn">Começar</a>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <section class="subjects">
+
+        <h1 class="heading">Conheça nossos emblemas</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/blogs (1).svg" alt="">
+                <h3>Explorador</h3>
+                <p>23.632 membros</p>
+            </div>
+
+            <div class="box">
+                <img src="img/blogs (2).svg" alt="">
+                <h3>Pesquisador</h3>
+                <p>12.345 membros</p>
+            </div>
+
+            <div class="box">
+                <img src="img/b.svg" alt="">
+                <h3>Viajante</h3>
+                <p>10.624 membros</p>
+            </div>
+
+            <div class="box">
+                <img src="img/blogs (4).svg" alt="">
+                <h3>Observador</h3>
+                <p>8.422 membros</p>
+            </div>
+
+            <div class="box">
+                <img src="img/blogs (5).svg" alt="">
+                <h3>Aventureiro</h3>
+                <p>4.284 membros</p>
+            </div>
+
+            <div class="box">
+                <img src="img/b6.svg" alt="">
+                <h3>Devastador</h3>
+                <p>72 membros</p>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="home-games">
+
+        <h1 class="heading"> Eventos mais populares </h1>
+
+        <div class="swiper home-games-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/events (1).jpg" alt="">
+                        <h3>CupHead</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Caçador de demônios</h3>
+                        <a href="#" class="btn">Participar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/events (2).jpg" alt="">
+                        <h3>Homem-Aranha</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Multiverso do fim</h3>
+                        <a href="#" class="btn">Participar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/events (3).jpg" alt="">
+                        <h3>SkullGirls</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Sangue lunar</h3>
+                        <a href="#" class="btn">Participar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/events (4).jpg" alt="">
+                        <h3>Minecraft</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Profundezas do mar</h3>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/events (5).jpg" alt="">
+                        <h3>League of Legends</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Substreet</h3>
+                        <a href="#" class="btn">Participar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/events (6).jpg" alt="">
+                        <h3>Lol: Wild Rift</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Reconquista</h3>
+                        <a href="#" class="btn">Participar</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> <i class="fas fas fa-gamepad"></i>GamesWeb</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, voluptatem.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Páginas</h3>
+                <a href="index.html" class="link">Home</a>
+                <a href="about.html" class="link">Sobre</a>
+                <a href="games.html" class="link">Games</a>
+                <a href="contact.html" class="link">Contato</a>
+            </div>
+
+            <div class="box">
+                <h3>Links Úteis</h3>
+                <a href="#" class="link">Ajuda</a>
+                <a href="#" class="link">Faça uma pergunta</a>
+                <a href="#" class="link">Envie um feedback</a>
+                <a href="#" class="link">Política de privacidade</a>
+                <a href="#" class="link">Termos de uso</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>Receba notícias</p>
+                <form action="">
+                    <input type="email" name="" placeholder="Digite seu email" id="" class="email">
+                    <input type="submit" value="Inscrever" class="btn">
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
